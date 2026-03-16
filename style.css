@@ -63,6 +63,14 @@ body {
     text-align: center;
 }
 
+/* Logo Design */
+.nursery-logo {
+    display: block;
+    margin: 30px auto 20px auto;
+    width: 220px;
+    height: auto;
+}
+
 /* Section Title */
 .section-badge {
     display: inline-block;
