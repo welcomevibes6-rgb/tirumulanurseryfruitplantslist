@@ -59,6 +59,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const cards = document.querySelectorAll('.fruit-card');
     cards.forEach((card, index) => {
         // Module 4 aligns well with Desktop's 4-column layout stagger effect (0s, 0.1s, 0.2s, 0.3s)
+        const delay = (index % 4) * 0.1;
         card.style.transitionDelay = `${delay}s`;
         
         // Remove animation delay after transition ends, so hovering works without delay issues
